@@ -1,0 +1,1 @@
+using System.Windows.Forms; ApplicationConfiguration.Initialize(); Application.Run(new Form(){Text="PulseCast MVP",Width=800,Height=600});
