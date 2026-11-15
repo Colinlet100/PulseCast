@@ -1,1 +1,13 @@
-using System.Windows.Forms; ApplicationConfiguration.Initialize(); Application.Run(new Form(){Text="PulseCast MVP",Width=800,Height=600});
+using System.Windows.Forms;
+
+namespace PulseCast.App;
+
+internal static class Program
+{
+    [STAThread]
+    static void Main()
+    {
+        ApplicationConfiguration.Initialize();
+        Application.Run(new MainForm());
+    }
+}
